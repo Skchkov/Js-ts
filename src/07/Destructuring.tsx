@@ -27,8 +27,6 @@ type PropsType = {
   car: { model: string };
 };
 
-function useDimychState(message: string) {}
-
 export const ManComponent: React.FC<PropsType> = ({ title, man, ...props }) => {
   const [message, setMessage] = useState("hello");
 
