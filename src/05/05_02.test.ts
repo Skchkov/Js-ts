@@ -78,7 +78,7 @@ test("list of streets titles of goverments buildings", () => {
   expect(streetsNames[1]).toBe("South Str");
 });
 
-test("list of streets titles ", () => {
+test("list of streets titles", () => {
   let streets = getStreetsTitlesOfHouses(city.houses);
 
   expect(streets.length).toBe(3);
